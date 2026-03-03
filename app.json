@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ForestBBA",
+    "slug": "mobile_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/images/logoo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/images/logoo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/images/logoo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hafod.mobile_app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBnJ-YWX1sCN5dn598Nk5wKzWFEociB0pw"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font", "expo-build-properties"],
+    "extra": {
+      "eas": {
+        "projectId": "338f7f2e-8779-480b-ab3a-226dc49ce9ea"
+      }
+    }
+  }
+}
