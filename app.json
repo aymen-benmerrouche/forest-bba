@@ -23,7 +23,7 @@
       "package": "com.hafod.mobile_app",
       "config": {
         "googleMaps": {
-          "apiKey": "  ......."
+          "apiKey": 
         }
       }
     },
